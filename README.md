@@ -2,7 +2,8 @@
 
 ## Description
 
-<p align="center"> <a href="https://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a> </p> <p align="center"> نظام متكامل لإدارة المهام قادر على تنظيم وتتبع وإنجاز المهام بكفاءة عالية باستخدام تقنية <strong>NestJS</strong> ومكتبات حديثة. </p> <p align="center"> <a href="https://www.npmjs.com/package/@nestjs/core"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a> <a href="https://github.com/mohamedalnajjar10/Task-Management-System"><img src="https://img.shields.io/github/stars/mohamedalnajjar10/Task-Management-System.svg" alt="GitHub stars" /></a> <a href="https://github.com/mohamedalnajjar10/Task-Management-System/blob/master/LICENSE"><img src="https://img.shields.io/github/license/mohamedalnajjar10/Task-Management-System.svg" alt="License" /></a> </p>
+<p align="center"> <a href="https://nestjs.com/" target="_blank"> <img src="https://nestjs.com/img/logo-small.svg" width="100" alt="NestJS Logo" /> </a> </p> <h2 align="center">Task Management System 🧩</h2> <p align="center"> A robust, modular, and scalable task management API built with <b>NestJS</b>, <b>MySQL</b>, and <b>Sequelize</b>, designed to manage users, tasks, comments, roles, and real-time notifications. </p>
+
 
 ## Project setup
 
@@ -22,32 +23,47 @@ $ npm run start:dev
 # production mode
 $ npm run start:prod
 ```
+---
 
-## Run tests
+## 🔧 Tech Stack
+- **Backend Framework**: Nest JS.
+- **Database**: MySQL.
+- **ORM**: Sequelize.
+- **Authentication**: JWT (JSON Web Tokens).
+- **Validation**: class-validator / pipes.
+- **Environment Config**: dotenv.
+---
+## 🚀 Features
+- **✅ User Authentication & Authorization**:
+- Secure JWT-based login and registration.
+- Role-based access control (Admin, User, etc.).
 
-```bash
-# unit tests
-$ npm run test
+- **✅ Task Management**:
+- Create, update, delete tasks.
+- Assign tasks to users
 
-# e2e tests
-$ npm run test:e2e
+- **✅ Comments System**:
+- Add, edit, and delete comments on tasks.
+- Nested comment structure (optional).
 
-# test coverage
-$ npm run test:cov
-```
+---
 
-## Deployment
+## 🧪 API Testing
 
-When you're ready to deploy your NestJS application to production, there are some key steps you can take to ensure it runs as efficiently as possible. Check out the [deployment documentation](https://docs.nestjs.com/deployment) for more information.
+The project includes a full Postman collection and environment setup to test all major endpoints including:
 
-If you are looking for a cloud-based platform to deploy your NestJS application, check out [Mau](https://mau.nestjs.com), our official platform for deploying NestJS applications on AWS. Mau makes deployment straightforward and fast, requiring just a few simple steps:
+-/auth/login
 
-```bash
-$ npm install -g @nestjs/mau
-$ mau deploy
-```
+-/users
 
-With Mau, you can deploy your application in just a few clicks, allowing you to focus on building features rather than managing infrastructure.
+-/tasks
+
+-/comments
+
+## 🔐 Security
+- Helmet for HTTP header security.
+- Global validation with pipes.
+- Rate limiting and request size control
 
 ## Resources
 
@@ -61,10 +77,6 @@ Check out a few resources that may come in handy when working with NestJS:
 - Need help with your project (part-time to full-time)? Check out our official [enterprise support](https://enterprise.nestjs.com).
 - To stay in the loop and get updates, follow us on [X](https://x.com/nestframework) and [LinkedIn](https://linkedin.com/company/nestjs).
 - Looking for a job, or have a job to offer? Check out our official [Jobs board](https://jobs.nestjs.com).
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
 
 
 ## License
