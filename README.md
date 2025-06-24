@@ -23,7 +23,7 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+<p align="center"> <a href="https://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a> </p> <p align="center"> نظام متكامل لإدارة المهام قادر على تنظيم وتتبع وإنجاز المهام بكفاءة عالية باستخدام تقنية <strong>NestJS</strong> ومكتبات حديثة. </p> <p align="center"> <a href="https://www.npmjs.com/package/@nestjs/core"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a> <a href="https://github.com/mohamedalnajjar10/Task-Management-System"><img src="https://img.shields.io/github/stars/mohamedalnajjar10/Task-Management-System.svg" alt="GitHub stars" /></a> <a href="https://github.com/mohamedalnajjar10/Task-Management-System/blob/master/LICENSE"><img src="https://img.shields.io/github/license/mohamedalnajjar10/Task-Management-System.svg" alt="License" /></a> </p>
 
 ## Project setup
 
@@ -87,11 +87,6 @@ Check out a few resources that may come in handy when working with NestJS:
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
 
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://twitter.com/kammysliwiec)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
 
 ## License
 
