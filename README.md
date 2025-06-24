@@ -3,13 +3,14 @@
 ## Description
 
 <p align="center"> <a href="https://nestjs.com/" target="_blank"> <img src="https://nestjs.com/img/logo-small.svg" width="100" alt="NestJS Logo" /> </a> </p> <h2 align="center">Task Management System 🧩</h2> <p align="center"> A robust, modular, and scalable task management API built with <b>NestJS</b>, <b>MySQL</b>, and <b>Sequelize</b>, designed to manage users, tasks, comments, roles, and real-time notifications. </p>
-
+---
 
 ## Project setup
 
 ```bash
 $ npm install
 ```
+---
 
 ## Compile and run the project
 
@@ -60,10 +61,14 @@ The project includes a full Postman collection and environment setup to test all
 
 -/comments
 
+---
+
 ## 🔐 Security
 - Helmet for HTTP header security.
 - Global validation with pipes.
 - Rate limiting and request size control
+
+---
 
 ## Resources
 
@@ -78,6 +83,7 @@ Check out a few resources that may come in handy when working with NestJS:
 - To stay in the loop and get updates, follow us on [X](https://x.com/nestframework) and [LinkedIn](https://linkedin.com/company/nestjs).
 - Looking for a job, or have a job to offer? Check out our official [Jobs board](https://jobs.nestjs.com).
 
+---
 
 ## License
 
