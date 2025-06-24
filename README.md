@@ -3,7 +3,7 @@
 ## Description
 
 <p align="center"> <a href="https://nestjs.com/" target="_blank"> <img src="https://nestjs.com/img/logo-small.svg" width="100" alt="NestJS Logo" /> </a> </p> <h2 align="center">Task Management System 🧩</h2> <p align="center"> A robust, modular, and scalable task management API built with <b>NestJS</b>, <b>MySQL</b>, and <b>Sequelize</b>, designed to manage users, tasks, comments, roles, and real-time notifications. </p>
----
+
 
 ## Project setup
 
@@ -31,8 +31,10 @@ $ npm run start:prod
 - **Database**: MySQL.
 - **ORM**: Sequelize.
 - **Authentication**: JWT (JSON Web Tokens).
+- **Oauth**: Oauth Google.
 - **Validation**: class-validator / pipes.
 - **Environment Config**: dotenv.
+  
 ---
 ## 🚀 Features
 - **✅ User Authentication & Authorization**:
